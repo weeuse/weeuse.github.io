@@ -140,7 +140,7 @@ h5,
 h6 {
   font-weight: 600;
   margin: 0px;
-  color: #828889;
+  color: #565656;
   font-family: 'Spartan', sans-serif;
 }
 
@@ -1290,7 +1290,7 @@ ol {
 
 .pagination .pagination-list li a {
   background: #fff;
-  color: #828889;
+  color: #565656;
   font-weight: 500;
   font-size: 15px;
   border-radius: 5px;
@@ -1546,7 +1546,7 @@ ol {
     color: #6dcc84 !important;
   }
   .header .navbar-nav .nav-item a {
-    color: #828889;
+    color: #565656;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1719,7 +1719,7 @@ ol {
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
-  color: #828889;
+  color: #565656;
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
@@ -1727,11 +1727,11 @@ ol {
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
-  color: #828889;
+  color: #565656;
 }
 
 .header .navbar .navbar-nav .nav-item .sub-menu a.active {
-  color: #828889;
+  color: #565656;
 }
 
 .sticky .navbar .navbar-nav .nav-item .sub-menu a.active {
@@ -1831,7 +1831,7 @@ ol {
 
 .navbar-nav .nav-item a {
   font-size: 15px;
-  color: #828889;
+  color: #565656;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   position: relative;
@@ -2010,14 +2010,14 @@ ol {
 }
 
 .header .button .btn {
-  background-color: #fff;
-  color: #828889;
+  background-color: #6dcc85;
+  color: #565656;
   font-weight: 500;
 }
 
 .header .button .btn:hover {
   color: #fff;
-  background-color: #6dcc84;
+  background-color: #565656;
 }
 
 .sticky .button .btn {
@@ -2026,13 +2026,13 @@ ol {
 }
 
 .sticky .button .btn:hover {
-  background-color: #6dcc84;
+  background-color: #565656;
   color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .header .button .signin {
-    color: #828889;
+    color: #565656;
   }
   .header .button .signin:hover {
     color: #6dcc84;
@@ -2121,7 +2121,7 @@ ol {
   font-size: 16px;
   line-height: 28px;
   margin-top: 20px;
-  color: #828889;
+  color: #565656;
 }
 
 .hero-area .hero-content .button {
@@ -2305,7 +2305,7 @@ ol {
 }
 
 .services .single-service .text-title {
-  color: #828889;
+  color: #565656;
   font-size: 18px;
   line-height: 28px;
   font-weight: 700;
@@ -2580,7 +2580,7 @@ ol {
 }
 
 /*======================================
-    Process Area CSS
+    About Page CSS
 ========================================*/
 .about img {
   width: 100%;
@@ -2686,7 +2686,7 @@ ol {
 }
 
 .about .content .list .single-list h4 {
-  color: #828889;
+  color: #565656;
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -2948,7 +2948,7 @@ ol {
 
 .single-blog-grid .blog-content h4 a {
   font-size: 17px;
-  color: #828889;
+  color: #565656;
   font-weight: 700;
   display: inline-block;
 }
@@ -2969,7 +2969,7 @@ ol {
 .single-blog-grid .blog-content .button .btn {
   padding: 0;
   background-color: transparent;
-  color: #828889;
+  color: #565656;
   text-decoration: underline;
   overflow: visible;
 }
@@ -3340,7 +3340,7 @@ blockquote span {
   font-size: 14px;
   font-weight: 500;
   z-index: 2;
-  color: #828889;
+  color: #565656;
 }
 
 @media (max-width: 767px) {
@@ -3424,7 +3424,7 @@ blockquote span {
 }
 
 .comment-form form .form-box label {
-  color: #828889;
+  color: #565656;
   display: block;
   margin-bottom: 10px;
   font-weight: 400;
@@ -3440,7 +3440,7 @@ blockquote span {
 .comment-form form .form-box .form-control-custom {
   border: none;
   font-size: 15px;
-  color: #828889;
+  color: #565656;
   padding: 0 25px;
   font-weight: 500;
   height: 53px;
@@ -3527,7 +3527,7 @@ blockquote span {
   font-weight: 600;
   line-height: 28px;
   z-index: 1;
-  color: #828889;
+  color: #565656;
 }
 
 .sidebar .widget.search-widget form {
@@ -3626,7 +3626,7 @@ blockquote span {
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .post-title a {
   font-size: 15px;
   font-weight: 600;
-  color: #828889;
+  color: #565656;
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .post-title a:hover {
@@ -3661,7 +3661,7 @@ blockquote span {
   padding: 8px 0;
   font-weight: 500;
   display: block;
-  color: #828889;
+  color: #565656;
 }
 
 .sidebar .widget.categories-widget ul li a:hover {
@@ -3686,7 +3686,7 @@ blockquote span {
   font-weight: 500;
   margin-right: 5px;
   margin-bottom: 10px;
-  color: #828889;
+  color: #565656;
   border: 1px solid #eee;
   background: transparent;
   border-radius: 30px;
@@ -3850,7 +3850,7 @@ blockquote span {
 
 .team .single-team .content .social li a {
   font-size: 15px;
-  color: #828889;
+  color: #565656;
 }
 
 .team .single-team .content .social li a:hover {
