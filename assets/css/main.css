@@ -38,7 +38,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #727272;
+  color: #565656;
   overflow-x: hidden;
   font-size: 15px;
 }
@@ -2102,7 +2102,7 @@ ol {
 }
 
 .hero-area .hero-content h4 {
-  color: #C9E265;
+  color: #B6CD5D;
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 20px;
