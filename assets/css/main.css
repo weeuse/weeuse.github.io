@@ -2601,12 +2601,19 @@ ol {
   max-height: 300px;
 }
 
+.about#why h4 {
+  font-size: 15px;
+}
+
 .about#guidelines .container {
 margin-top: -100px;
 }
 
 .about#guidelines h3 {
 font-size: 18pt;
+}
+.about#guidelines h4 {
+font-size: 15pt;
 }
 
 .about#guidelines p {
@@ -3821,9 +3828,6 @@ blockquote span {
 /*======================================
     Team CSS
 ========================================*/
-.team .container {
-  margin-top: -100px;
-}
 
 .team .section-title {
   margin-bottom: 50px;
@@ -3845,13 +3849,14 @@ blockquote span {
 }
 
 .team .single-team img {
-  height: 200px;
-  width: 200px;
+  height: 140px;
+  width: 140px;
   border-radius: 50%;
   display: inline-block;
   background-color: #fff;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #eee;
+  margin-bottom: -10px;
 }
 
 .team .single-team .content {
