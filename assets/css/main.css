@@ -2624,8 +2624,11 @@ font-size: 12pt;
 padding-bottom: 30px;
 }
 
+.about#privacy h3 {
+padding-bottom: 30px;
+}
 .about iframe {
-  width: 100%;
+  width: 100% !important;
   height: 1000px;
 }
 
@@ -5111,7 +5114,7 @@ blockquote span {
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #828889;
+  background-color: #817E7F;
   position: relative;
   padding-bottom: 0;
 }
