@@ -2011,7 +2011,7 @@ ol {
 
 .header .button .btn {
   background-color: #6dcc85;
-  color: #565656;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -2149,7 +2149,7 @@ ol {
 }
 
 .hero-area .hero-content .button .btn:hover {
-  color: #00C2CB;
+  color: #B6CD5D;
   background-color: #fff;
 }
 
@@ -2630,6 +2630,16 @@ padding-bottom: 30px;
 .about iframe {
   width: 100% !important;
   height: 1000px;
+}
+
+.about#map .container {
+margin-top: -30px;
+margin-bottom: -50px;
+}
+
+.about#map img {
+  max-height: 300px;
+  margin: 20px auto;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -4827,6 +4837,12 @@ blockquote span {
   color: #777;
 }
 
+.accordion-body a {
+  color: #6dcc84;
+}
+
+
+
 .accordion-body p:last-child {
   margin: 0;
 }
@@ -4881,7 +4897,7 @@ blockquote span {
   font-size: 28px;
   font-weight: 700;
   line-height: 42px;
-  color: #828889;
+  color: #565656;
 }
 
 .call-action .text h2 span {
