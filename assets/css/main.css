@@ -4699,6 +4699,10 @@ blockquote span {
   margin-bottom: 60px;
 }
 
+.faq .section-title a {
+    color: #6dcc84;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .faq .section-title {
     margin-bottom: 40px;
@@ -5130,7 +5134,7 @@ blockquote span {
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #817E7F;
+  background-color: #828889;
   position: relative;
   padding-bottom: 0;
 }
@@ -5216,6 +5220,7 @@ blockquote span {
 
 .footer .single-footer.f-about .social li a {
   color: #fff;
+  font-size: 24px;
 }
 
 .footer .single-footer.f-about .social li a:hover {
