@@ -2586,6 +2586,10 @@ ol {
   margin-top: 50px;
 }
 
+.about h4 {
+  line-height: 24px;
+}
+
 .about img {
   max-height: 500px;
 }
