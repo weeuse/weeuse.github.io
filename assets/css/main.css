@@ -2650,11 +2650,17 @@ margin-bottom: -50px;
   .about .content {
     padding-left: 50px;
   }
+  .about#weeuseis img#mobile {
+    display: none !important;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   .about .content {
     padding-left: 50px;
+  }
+  .about#weeuseis img#mobile {
+    display: none !important;
   }
 }
 
@@ -2666,6 +2672,9 @@ margin-bottom: -50px;
   .about img {
     max-height: 300px;
   }
+  .about#weeuseis img#mom {
+    display: none !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2674,7 +2683,10 @@ margin-bottom: -50px;
   }
 
   .about img {
-    max-height: 200px;
+    max-height: 500px;
+  }
+  .about#weeuseis img#mom {
+    display: none;
   }
 }
 
