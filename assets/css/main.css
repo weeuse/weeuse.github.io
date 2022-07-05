@@ -1065,6 +1065,12 @@ ol {
   position: relative;
 }
 
+.section#travel {
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section {
     padding-top: 70px;
@@ -2113,7 +2119,6 @@ ol {
   font-size: 38px;
   line-height: 55px;
   color: #6dcc84;
-  text-transform: capitalize;
 }
 
 .hero-area .hero-content p {
@@ -2654,16 +2659,51 @@ margin-bottom: -50px;
   display: none;
 }
 
+.about .parallax {
+  background-image: url("../images/tavel.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about#travel #box {
+  background-color: rgba(108, 122, 137,0.7);
+}
+
+.about#travel h2 {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+.about#travel p {
+  color: #fff;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about .content {
     padding-left: 50px;
   }
-
+  .about#travel .content {
+   padding-left: 20px !important;
+   padding-right: 20px !important;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   .about .content {
     padding-left: 50px;
+  }
+  .about#travel .content {
+   padding-left: 20px !important;
+   padding-right: 20px !important;
   }
 }
 
@@ -3900,6 +3940,21 @@ blockquote span {
 
 .team .single-team .content {
   padding: 40px 30px;
+}
+
+.team#type .single-team img {
+  width: 200px;
+  height: auto;
+  border-radius: 0 !important;
+  display: inline-block !important;
+  padding: 0 !important;
+  border: 0 !important;
+  margin-bottom: -10px;
+}
+
+.team#type h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
