@@ -4908,6 +4908,7 @@ blockquote span {
   background-color: #fff;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .accordion-body {
     padding: 30px;
@@ -4947,10 +4948,22 @@ blockquote span {
   margin: 0;
 }
 
-.instructions img {
+.instructions  {
+display: flex;
+text-align: center;
+}
+
+.instructions .row img {
   height: 50px;
-  display: inline-block;
-  align-items: center;;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .instructions p {
+    font-size: 0.9em;
+  }
 }
 
 /*======================================
@@ -5028,6 +5041,54 @@ blockquote span {
     margin-top: 30px;
   }
 }
+
+/*======================================
+Tooltip
+========================================*/
+
+.tip {
+    color: #6dcc84;
+    cursor: help;
+    position: relative;
+    overflow: visible;
+}
+
+.tip:before,
+.tip:after {
+    position: absolute;
+    opacity: 0;
+    z-index: -100;
+    transition: .4s;
+}
+
+.tip:before {
+    content: '';
+    border-style: solid;
+    border-width: 0.8em 0.5em 0 0.5em;
+    border-color: #3E474F transparent transparent transparent;
+    bottom: 110%;
+    left: 15%;
+}
+
+.tip:after {
+    content: attr(data-tip);
+    background: #3E474F;
+    color: white;
+    font-size: 0.9em;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    bottom: 150%;
+    left: -10%;
+}
+
+.tip:hover:before,
+.tip:hover:after {
+    opacity: 1;
+    z-index: 100;
+    transform: scaleY(1);
+}
+
 
 /*======================================
 	Error 404 CSS
