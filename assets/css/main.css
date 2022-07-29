@@ -4021,6 +4021,12 @@ blockquote span {
           transform: translateY(20px);
 }
 
+.team#type #button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*======================================
 	Account Login CSS
 ========================================*/
