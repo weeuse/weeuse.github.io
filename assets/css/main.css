@@ -5550,3 +5550,18 @@ Tooltip
 .footer .copyright-area p a:hover {
   color: #6dcc84;
 }
+
+
+/*======================================
+Community CSS
+========================================*/
+
+#community {
+  padding-bottom: 80px;
+  margin-top: 100px;
+  background-color: #F4F7FA;
+  background-image: url("../images/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
