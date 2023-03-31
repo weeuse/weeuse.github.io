@@ -5308,9 +5308,10 @@ Tooltip
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #828889;
+  background-color: #5A5A5A;
   position: relative;
   padding-bottom: 0;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5328,6 +5329,7 @@ Tooltip
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer .single-footer {
     margin-top: 40px;
+    text-align: center;
   }
 }
 
@@ -5574,10 +5576,19 @@ Community CSS
 
 #community {
   padding-bottom: 80px;
-  margin-top: 100px;
   background-color: #F4F7FA;
   background-image: url("../images/bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#community h2 {
+  padding-top: -80px;
+  margin-bottom: 30px;
+}
+
+#community hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
