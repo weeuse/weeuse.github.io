@@ -129,8 +129,19 @@
 </div>
   </div>
   <!-- SnapWidget -->
+  <br>
 <script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/1032929" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+<iframe src="https://snapwidget.com/embed/1032929" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:80%; "></iframe>
+<script>
+var images = document.querySelectorAll('.snapwidget-image-link');
+for (var i = 0; i < images.length; i++) {
+  images[i].addEventListener('click', function(e) {
+    e.preventDefault();
+  });
+}
+</script>
+
+
 </div>
   </section>
 
